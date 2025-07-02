@@ -1,0 +1,764 @@
+{
+  "v": 8,
+  "name": "rust_e_commerce",
+  "folders": [
+    {
+      "v": 8,
+      "name": "report",
+      "folders": [],
+      "requests": [
+        {
+          "v": "13",
+          "name": "daily",
+          "method": "GET",
+          "endpoint": "http://localhost:8080/reports/daily",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {
+            "daily_1": {
+              "name": "daily_1",
+              "originalRequest": {
+                "v": "5",
+                "name": "daily",
+                "method": "GET",
+                "endpoint": "http://localhost:8080/reports/daily",
+                "headers": [],
+                "params": [],
+                "body": {
+                  "contentType": null,
+                  "body": null
+                },
+                "auth": {
+                  "authType": "none",
+                  "authActive": true
+                },
+                "requestVariables": []
+              },
+              "status": "OK",
+              "code": 200,
+              "headers": [
+                {
+                  "key": "content-length",
+                  "value": "213"
+                },
+                {
+                  "key": "content-type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "date",
+                  "value": "Fri, 13 Jun 2025 08:01:37 GMT"
+                }
+              ],
+              "body": "[{\"period\":\"2025-06-13\",\"product_name\":\"Mankcdgede's Dryer\",\"total_units_sold\":8,\"total_sales_amount\":264.0},{\"period\":\"2025-06-13\",\"product_name\":\"Mayanke's Dryer\",\"total_units_sold\":3,\"total_sales_amount\":99.0}]"
+            }
+          }
+        },
+        {
+          "v": "13",
+          "name": "monthly",
+          "method": "GET",
+          "endpoint": "http://localhost:8080/reports/monthly",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {
+            "monthly_2": {
+              "name": "monthly_2",
+              "originalRequest": {
+                "v": "5",
+                "name": "monthly",
+                "method": "GET",
+                "endpoint": "http://localhost:8080/reports/monthly",
+                "headers": [],
+                "params": [],
+                "body": {
+                  "contentType": null,
+                  "body": null
+                },
+                "auth": {
+                  "authType": "none",
+                  "authActive": true
+                },
+                "requestVariables": []
+              },
+              "status": "OK",
+              "code": 200,
+              "headers": [
+                {
+                  "key": "content-length",
+                  "value": "213"
+                },
+                {
+                  "key": "content-type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "date",
+                  "value": "Fri, 13 Jun 2025 08:01:55 GMT"
+                }
+              ],
+              "body": "[{\"period\":\"2025-06-01\",\"product_name\":\"Mayanke's Dryer\",\"total_units_sold\":3,\"total_sales_amount\":99.0},{\"period\":\"2025-06-01\",\"product_name\":\"Mankcdgede's Dryer\",\"total_units_sold\":8,\"total_sales_amount\":264.0}]"
+            }
+          }
+        },
+        {
+          "v": "13",
+          "name": "weekly",
+          "method": "GET",
+          "endpoint": "http://localhost:8080/reports/weekly",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {
+            "weekly_3": {
+              "name": "weekly_3",
+              "originalRequest": {
+                "v": "5",
+                "name": "weekly",
+                "method": "GET",
+                "endpoint": "http://localhost:8080/reports/weekly",
+                "headers": [],
+                "params": [],
+                "body": {
+                  "contentType": null,
+                  "body": null
+                },
+                "auth": {
+                  "authType": "none",
+                  "authActive": true
+                },
+                "requestVariables": []
+              },
+              "status": "OK",
+              "code": 200,
+              "headers": [
+                {
+                  "key": "content-length",
+                  "value": "213"
+                },
+                {
+                  "key": "content-type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "date",
+                  "value": "Fri, 13 Jun 2025 08:02:09 GMT"
+                }
+              ],
+              "body": "[{\"period\":\"2025-06-08\",\"product_name\":\"Mayanke's Dryer\",\"total_units_sold\":3,\"total_sales_amount\":99.0},{\"period\":\"2025-06-08\",\"product_name\":\"Mankcdgede's Dryer\",\"total_units_sold\":8,\"total_sales_amount\":264.0}]"
+            }
+          }
+        },
+        {
+          "v": "13",
+          "name": "yearly",
+          "method": "GET",
+          "endpoint": "http://localhost:8080/reports/yearly",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {
+            "yearly_4": {
+              "name": "yearly_4",
+              "originalRequest": {
+                "v": "5",
+                "name": "yearly",
+                "method": "GET",
+                "endpoint": "http://localhost:8080/reports/yearly",
+                "headers": [],
+                "params": [],
+                "body": {
+                  "contentType": null,
+                  "body": null
+                },
+                "auth": {
+                  "authType": "none",
+                  "authActive": true
+                },
+                "requestVariables": []
+              },
+              "status": "OK",
+              "code": 200,
+              "headers": [
+                {
+                  "key": "content-length",
+                  "value": "213"
+                },
+                {
+                  "key": "content-type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "date",
+                  "value": "Fri, 13 Jun 2025 08:02:20 GMT"
+                }
+              ],
+              "body": "[{\"period\":\"2025-01-01\",\"product_name\":\"Mankcdgede's Dryer\",\"total_units_sold\":8,\"total_sales_amount\":264.0},{\"period\":\"2025-01-01\",\"product_name\":\"Mayanke's Dryer\",\"total_units_sold\":3,\"total_sales_amount\":99.0}]"
+            }
+          }
+        }
+      ],
+      "auth": {
+        "authActive": true,
+        "authType": "inherit"
+      },
+      "headers": [],
+      "_ref_id": "coll_mbtm15t5_7fa74ec3-64bb-41ae-a535-2b32413c6d9b"
+    },
+    {
+      "v": 8,
+      "name": "order",
+      "folders": [],
+      "requests": [
+        {
+          "v": "13",
+          "name": "order_place",
+          "method": "POST",
+          "endpoint": "http://localhost:8080/orders/place",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"user_id\": \"5bc3baa6-9db4-459c-aad3-6b591f300e2c\",\n  \"shipping_address\": \"123, MG Road, Mumbai, India\",\n  \"products\": [\n    {\n      \"product_id\": \"7d59b10f-8878-429f-96e1-4445878c5b78\",\n      \"quantity\": 2\n    }\n  ]\n}\n"
+          },
+          "requestVariables": [],
+          "responses": {
+            "order_place-1": {
+              "name": "order_place-1",
+              "originalRequest": {
+                "v": "5",
+                "name": "order_place",
+                "method": "POST",
+                "endpoint": "http://localhost:8080/orders/place",
+                "headers": [],
+                "params": [],
+                "body": {
+                  "contentType": "application/json",
+                  "body": "{\n  \"user_id\": \"5bc3baa6-9db4-459c-aad3-6b591f300e2c\",\n  \"shipping_address\": \"123, MG Road, Mumbai, India\",\n  \"products\": [\n    {\n      \"product_id\": \"19f2ff61-97f5-4cf6-9033-77f24677e49c\",\n      \"quantity\": 1\n    },\n    {\n      \"product_id\": \"7d59b10f-8878-429f-96e1-4445878c5b78\",\n      \"quantity\": 2\n    }\n  ]\n}\n"
+                },
+                "auth": {
+                  "authType": "none",
+                  "authActive": true
+                },
+                "requestVariables": []
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "headers": [
+                {
+                  "key": "content-length",
+                  "value": "52"
+                },
+                {
+                  "key": "content-type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "date",
+                  "value": "Fri, 13 Jun 2025 07:49:50 GMT"
+                }
+              ],
+              "body": "{\"error\":\"Product 'Mayanke's Dryer' is unavailable\"}"
+            },
+            "order_place-2": {
+              "name": "order_place-2",
+              "originalRequest": {
+                "v": "5",
+                "name": "order_place",
+                "method": "POST",
+                "endpoint": "http://localhost:8080/orders/place",
+                "headers": [],
+                "params": [],
+                "body": {
+                  "contentType": "application/json",
+                  "body": "{\n  \"user_id\": \"5bc3baa6-9db4-459c-aad3-6b591f300e2c\",\n  \"shipping_address\": \"123, MG Road, Mumbai, India\",\n  \"products\": [\n    {\n      \"product_id\": \"7d59b10f-8878-429f-96e1-4445878c5b78\",\n      \"quantity\": 2\n    }\n  ]\n}\n"
+                },
+                "auth": {
+                  "authType": "none",
+                  "authActive": true
+                },
+                "requestVariables": []
+              },
+              "status": "OK",
+              "code": 200,
+              "headers": [
+                {
+                  "key": "content-length",
+                  "value": "300"
+                },
+                {
+                  "key": "content-type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "date",
+                  "value": "Fri, 13 Jun 2025 07:51:07 GMT"
+                }
+              ],
+              "body": "{\"message\":\"Order placed successfully\",\"order_id\":\"e2f703cf-ec10-47f9-863f-d28b3622d3d3\",\"products\":[{\"order_id\":\"e2f703cf-ec10-47f9-863f-d28b3622d3d3\",\"product_id\":\"7d59b10f-8878-429f-96e1-4445878c5b78\",\"product_name\":\"Mankcdgede's Dryer\",\"quantity\":2,\"total_price\":\"66.00\"}],\"total_amount\":\"66.00\"}"
+            }
+          }
+        },
+        {
+          "v": "13",
+          "name": "update_order",
+          "method": "PATCH",
+          "endpoint": "http://localhost:8080/orders/e854959a-c5df-4a5e-b856-1aec8cb9c6ec/status",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"new_status\": \"delivered\"\n}"
+          },
+          "requestVariables": [],
+          "responses": {
+            "update_order_1": {
+              "name": "update_order_1",
+              "originalRequest": {
+                "v": "5",
+                "name": "update_order",
+                "method": "PATCH",
+                "endpoint": "http://localhost:8080/orders/e854959a-c5df-4a5e-b856-1aec8cb9c6ec/status",
+                "headers": [],
+                "params": [],
+                "body": {
+                  "contentType": "application/json",
+                  "body": "{\n  \"new_status\": \"delivered\"\n}"
+                },
+                "auth": {
+                  "authType": "none",
+                  "authActive": true
+                },
+                "requestVariables": []
+              },
+              "status": "OK",
+              "code": 200,
+              "headers": [
+                {
+                  "key": "content-length",
+                  "value": "47"
+                },
+                {
+                  "key": "content-type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "date",
+                  "value": "Fri, 13 Jun 2025 08:01:15 GMT"
+                }
+              ],
+              "body": "{\"message\":\"Order status updated to delivered\"}"
+            }
+          }
+        },
+        {
+          "v": "13",
+          "name": "cancel_order",
+          "method": "POST",
+          "endpoint": "http://localhost:8080/orders/ e854959a-c5df-4a5e-b856-1aec8cb9c6ec/cancel",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authActive": true,
+        "authType": "inherit"
+      },
+      "headers": [],
+      "_ref_id": "coll_mbtxrsed_9a7c10c8-fe91-45f1-a05d-8cec89d5eb1c"
+    },
+    {
+      "v": 8,
+      "name": "auth_routes",
+      "folders": [],
+      "requests": [
+        {
+          "v": "13",
+          "name": "login",
+          "method": "POST",
+          "endpoint": "http://localhost:8080/login",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"email\": \"user_1@gmail.com \",\n  \"password\": \"user_1@123\"\n}\n"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "13",
+          "name": "sign_up",
+          "method": "POST",
+          "endpoint": "http://localhost:8080/signup",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"username\": \"user_2\",\n  \"email\": \"user_2@gmail.com\",\n  \"password\": \"user_2@123\"\n}\n"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "13",
+          "name": "logout",
+          "method": "POST",
+          "endpoint": "http://localhost:8080/logout",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {}
+        }
+      ],
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "headers": [],
+      "_ref_id": "coll_mbty0kpu_169d9729-7f19-44b9-9fff-a76f66a7dbcc"
+    },
+    {
+      "v": 8,
+      "name": "product",
+      "folders": [],
+      "requests": [
+        {
+          "v": "13",
+          "name": "add_product",
+          "method": "POST",
+          "endpoint": "http://localhost:8080/products",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"name\": \"hp 15s\",\n  \"stock\": 0,\n  \"price\": 33,\n  \"category\": \"electronics\"\n}"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "13",
+          "name": "update_product",
+          "method": "PUT",
+          "endpoint": "http://localhost:8080/products/7d59b10f-8878-429f-96e1-4445878c5b78",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"name\": \"Mankcdgede's Dryer\",\n  \"stock\": 10,\n  \"price\": 33,\n  \"category\": \"electronics\"\n}\n"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "13",
+          "name": "update_product_status",
+          "method": "PUT",
+          "endpoint": "http://localhost:8080/products/19f2ff61-97f5-4cf6-9033-77f24677e49c/status",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": "application/json",
+            "body": "{\n  \"status\": \"unlisted\"\n}\n"
+          },
+          "requestVariables": [],
+          "responses": {}
+        },
+        {
+          "v": "13",
+          "name": "get_product_by_category",
+          "method": "GET",
+          "endpoint": "http://localhost:8080/products/category/electronics",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {
+            "get_product_by_category_1": {
+              "name": "get_product_by_category_1",
+              "originalRequest": {
+                "v": "5",
+                "name": "get_product_by_category",
+                "method": "GET",
+                "endpoint": "http://localhost:8080/products/category/electronics",
+                "headers": [],
+                "params": [],
+                "body": {
+                  "contentType": null,
+                  "body": null
+                },
+                "auth": {
+                  "authType": "none",
+                  "authActive": true
+                },
+                "requestVariables": []
+              },
+              "status": "OK",
+              "code": 200,
+              "headers": [
+                {
+                  "key": "content-length",
+                  "value": "474"
+                },
+                {
+                  "key": "content-type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "date",
+                  "value": "Fri, 13 Jun 2025 05:34:47 GMT"
+                }
+              ],
+              "body": "[{\"id\":\"12d4715e-d8a1-4aad-b91a-fd64576aeeb0\",\"name\":\"hp 15s\",\"description\":null,\"price\":\"33.00\",\"stock\":0,\"category\":\"electronics\",\"status\":\"listed\"},{\"id\":\"19f2ff61-97f5-4cf6-9033-77f24677e49c\",\"name\":\"Mayanke's Dryer\",\"description\":null,\"price\":\"33.00\",\"stock\":7,\"category\":\"electronics\",\"status\":\"unlisted\"},{\"id\":\"7d59b10f-8878-429f-96e1-4445878c5b78\",\"name\":\"Mankcdgede's Dryer\",\"description\":null,\"price\":\"33.00\",\"stock\":4,\"category\":\"electronics\",\"status\":\"listed\"}]"
+            }
+          }
+        },
+        {
+          "v": "13",
+          "name": "get_product_by_id",
+          "method": "GET",
+          "endpoint": "http://localhost:8080/products/19f2ff61-97f5-4cf6-9033-77f24677e49c",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {
+            "get_product_by_id-1": {
+              "name": "get_product_by_id-1",
+              "originalRequest": {
+                "v": "5",
+                "name": "get_product_by_id",
+                "method": "GET",
+                "endpoint": "http://localhost:8080/products/19f2ff61-97f5-4cf6-9033-77f24677e49c",
+                "headers": [],
+                "params": [],
+                "body": {
+                  "contentType": null,
+                  "body": null
+                },
+                "auth": {
+                  "authType": "none",
+                  "authActive": true
+                },
+                "requestVariables": []
+              },
+              "status": "OK",
+              "code": 200,
+              "headers": [
+                {
+                  "key": "content-length",
+                  "value": "160"
+                },
+                {
+                  "key": "content-type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "date",
+                  "value": "Fri, 13 Jun 2025 05:35:15 GMT"
+                }
+              ],
+              "body": "{\"id\":\"19f2ff61-97f5-4cf6-9033-77f24677e49c\",\"name\":\"Mayanke's Dryer\",\"description\":null,\"price\":\"33.00\",\"stock\":7,\"category\":\"electronics\",\"status\":\"unlisted\"}"
+            }
+          }
+        },
+        {
+          "v": "13",
+          "name": "get_admins_product",
+          "method": "GET",
+          "endpoint": "http://localhost:8080/products",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {
+            "get_admins_product-1": {
+              "name": "get_admins_product-1",
+              "originalRequest": {
+                "v": "5",
+                "name": "get_admins_product",
+                "method": "GET",
+                "endpoint": "http://localhost:8080/products",
+                "headers": [],
+                "params": [],
+                "body": {
+                  "contentType": null,
+                  "body": null
+                },
+                "auth": {
+                  "authType": "none",
+                  "authActive": true
+                },
+                "requestVariables": []
+              },
+              "status": "OK",
+              "code": 200,
+              "headers": [
+                {
+                  "key": "content-length",
+                  "value": "474"
+                },
+                {
+                  "key": "content-type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "date",
+                  "value": "Fri, 13 Jun 2025 07:48:37 GMT"
+                }
+              ],
+              "body": "[{\"id\":\"12d4715e-d8a1-4aad-b91a-fd64576aeeb0\",\"name\":\"hp 15s\",\"description\":null,\"price\":\"33.00\",\"stock\":0,\"category\":\"electronics\",\"status\":\"listed\"},{\"id\":\"19f2ff61-97f5-4cf6-9033-77f24677e49c\",\"name\":\"Mayanke's Dryer\",\"description\":null,\"price\":\"33.00\",\"stock\":7,\"category\":\"electronics\",\"status\":\"unlisted\"},{\"id\":\"7d59b10f-8878-429f-96e1-4445878c5b78\",\"name\":\"Mankcdgede's Dryer\",\"description\":null,\"price\":\"33.00\",\"stock\":4,\"category\":\"electronics\",\"status\":\"listed\"}]"
+            }
+          }
+        }
+      ],
+      "auth": {
+        "authActive": true,
+        "authType": "inherit"
+      },
+      "headers": [],
+      "_ref_id": "coll_mbtyiill_9396778d-acbb-4bd4-9f3a-283d194fcd03"
+    }
+  ],
+  "requests": [],
+  "auth": {
+    "authActive": true,
+    "authType": "none"
+  },
+  "headers": [],
+  "_ref_id": "coll_mbtlzysd_51df0388-e074-46ca-a7b3-f06edaab8799"
+}
